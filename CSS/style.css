@@ -1,0 +1,171 @@
+.carrosel{
+    width: 600px;
+}
+ 
+ #fotodobolo{
+    display: block !important;
+    text-align: left !important;
+    height: 50px !important;
+    width: 30% !important;
+ }
+
+#icon{
+    margin-top: 50%;
+    margin-left: 25%;
+    font-size: 150px;
+}
+
+#icon:hover{
+    cursor: pointer;
+}
+
+#imgPreview{
+    display: none;
+    height: 250px;
+    width: 320px;
+    margin-left: -14px;
+}
+
+#TipoDeBolo{
+    margin-bottom: 15px;
+}
+
+
+.email{
+    display: flex;
+}
+
+.numero{
+    display: flex;
+}
+
+
+#cadastro{
+    margin-left: 20px;
+    padding-right: 20px;
+}
+
+
+.img-bolodecenoura{
+
+    height: 300px;
+    border-radius: 5px !important;
+
+}
+
+.img-bolo{
+    width: 500px;
+    text-align: center !important;
+}
+
+.bolo{
+    text-align: center;
+}
+
+#fechar{
+    text-align: left !important;
+    margin-bottom: 20px !important;
+    margin-right: 20px !important;
+    width: 200px !important;
+}
+
+.igredientes{
+  margin-top: 100px;  
+  text-align: center;
+}
+
+.list{
+    margin-top: 20px;
+    
+}
+
+li{
+    line-height: 40px;
+}
+
+h2{
+    text-align: center;
+    font-size: 20px;
+}
+
+
+#link{
+    /* text-decoration: none; */
+    color:black;
+}
+
+#link:hover{
+    color: white;
+}
+
+.header{
+    margin-left: 10px;
+}
+
+
+.card{
+    border-color: rgb(255 170 91) !important;
+    border-width: 3px !important;
+}
+
+p{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+.btn-fixed{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Para que o footer fique sempre no final da página */
+  }
+
+footer{
+    width: 100% !important;
+    background-color:  rgb(255 170 91) !important;
+    display: flex !important;
+    bottom: 0 !important;
+    margin-top: 30px !important;
+}
+
+
+@media screen and (max-width: 992px){
+
+    .cartaz{
+    width: 100% !important;
+    margin-top: 10px !important;
+    }
+
+    #cadastro{
+        margin-top: 20px !important;
+        text-align: left !important;
+        margin-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
+    .footer{
+        width: 100% !important;
+    }
+
+    .navbar{
+        width: 100% !important;
+    }
+
+    .img-bolo{
+        width: 350px;
+        text-align: center !important;
+    }
+
+    
+
+}
+
+ 
